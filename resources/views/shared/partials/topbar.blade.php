@@ -600,11 +600,11 @@
             <!-- Profile Dropdown Button -->
             <div class="topbar-item hs-dropdown before:bg-default-700/35 relative inline-flex before:h-4.5 before:w-px before:content-['']" id="user-dropdown-detailed">
                 <button aria-expanded="false" aria-haspopup="menu" aria-label="Dropdown" class="hs-dropdown-toggle topbar-link ms-2.5 cursor-pointer items-center px-3! flex">
-                    <img alt="user-image" class="size-8 rounded-full lg:me-3" src="/images/users/user-1.jpg" />
+                    <img alt="user-image" class="size-8 rounded-full lg:me-3" src="{{ userAvatar() }}" />
                     <div class="hidden lg:flex items-center gap-1.5">
                         <span class="flex flex-col items-start">
-                            <h5 class="pro-username">David Dev</h5>
-                            <span class="text-xs/none mb-0.5">Admin Head</span>
+                            <h5 class="pro-username">{{ auth()->user()->name }}</h5>
+                            <span class="text-xs/none mb-0.5">{{ auth()->user()->email }}</span>
                         </span>
                         <i class="iconify tabler--chevron-down align-middle"></i>
                     </div>

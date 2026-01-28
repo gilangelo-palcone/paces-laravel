@@ -7,12 +7,13 @@
     "build": "vite build"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.0.7",
     "axios": "^1.11.0",
     "concurrently": "^9.0.1",
     "laravel-vite-plugin": "^2.0.0",
     "path": "^0.12.7",
-    "vite": "^7.0.7",
-    "@tailwindcss/vite": "^4.0.7"
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.0.7"
   },
   "name": "paces-tailwind",
   "version": "1.1.0",
@@ -71,7 +72,6 @@
     "sortablejs": "^1.15.6",
     "summernote": "^0.9.1",
     "sweetalert2": "^11.22.5",
-    "tailwindcss": "^4.1.18",
     "typeahead.js": "^0.11.1"
   }
 }

@@ -1,6 +1,8 @@
+@vite(['resources/css/app.css'])
 <script>
     ;(function () {
         const html = document.documentElement
+        html.style.visibility = 'hidden'
         const storageKey = "__THEME_CONFIG__"
         const savedConfig = sessionStorage.getItem(storageKey)
         // Default config
@@ -57,6 +59,7 @@
             }
             html.setAttribute("data-sidenav-size", size)
         }
+        html.style.visibility = 'visible'
     })()
 </script>
 @vite(['resources/js/vendor.js']) @vite(['resources/js/app.js'])

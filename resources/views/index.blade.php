@@ -4,6 +4,7 @@
     <!-- Start Page Content here -->
     <div class="page-content">
         <main>
+            @include('shared.partials.flash-messages')
             @include('shared.partials.page-title', ['subtitle' => 'Dashboard', 'title' => 'eCommerce'])
             <div class="container-fluid">
                 <div class="grid xl:grid-cols-12 grid-cols-1 gap-base mb-base">

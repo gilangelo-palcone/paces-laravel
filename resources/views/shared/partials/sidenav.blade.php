@@ -33,9 +33,9 @@
                 <div class="flex items-center justify-between">
                     <div>
                         <a class="link-reset" href="#!">
-                            <img alt="user-image" class="mb-3 size-9 rounded-full" src="/images/users/user-1.jpg" />
-                            <span class="sidenav-user-name block font-bold text-nowrap">David Dev</span>
-                            <span class="text-xs font-semibold" data-lang="user-role">Art Director</span>
+                            <img alt="user-image" class="mb-3 size-9 rounded-full" src="{{ userAvatar() }}" />
+                            <span class="sidenav-user-name block font-bold text-nowrap">{{ auth()->user()->name }}</span>
+                            <span class="text-xs font-semibold" data-lang="user-role">{{ auth()->user()->email }}</span>
                         </a>
                     </div>
                     <div>

@@ -24,8 +24,8 @@
                             </div>
                             <div class="grid lg:grid-cols-2 text-default-400 gap-3">
                                 <div>
-                                    <a class="btn border border-default-300 text-default-900 hover:border-default-400 hover:bg-default-50 w-full" href="#!">
-                                        <svg class="me-1" height="14px" viewbox="0 0 256 262" width="13.68px" xmlns="http://www.w3.org/2000/svg">
+                                    <a class="btn border border-default-300 text-default-900 hover:border-default-400 hover:bg-default-50 w-full oauth-btn h-11 flex items-center justify-center py-2.5" href="{{ route('socialite.redirect', 'google') }}" onclick="showOAuthLoading(this)">
+                                        <svg class="me-1 flex-shrink-0" height="14px" viewbox="0 0 256 262" width="13.68px" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622l38.755 30.023l2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285f4"></path>
                                             <path
                                                 d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055c-34.523 0-63.824-22.773-74.269-54.25l-1.531.13l-40.298 31.187l-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"
@@ -38,14 +38,11 @@
                                     </a>
                                 </div>
                                 <div>
-                                    <a class="btn border border-default-300 text-default-900 hover:border-default-400 hover:bg-default-50 w-full" href="#!">
-                                        <svg class="me-1" height="14px" viewbox="0 0 64 64" width="14px" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M32 0C14 0 0 14 0 32c0 21 19 30 22 30c2 0 2-1 2-2v-5c-7 2-10-2-11-5c0 0 0-1-2-3c-1-1-5-3-1-3c3 0 5 4 5 4c3 4 7 3 9 2c0-2 2-4 2-4c-8-1-14-4-14-15q0-6 3-9s-2-4 0-9c0 0 5 0 9 4c3-2 13-2 16 0c4-4 9-4 9-4c2 7 0 9 0 9q3 3 3 9c0 11-7 14-14 15c1 1 2 3 2 6v8c0 1 0 2 2 2c3 0 22-9 22-30C64 14 50 0 32 0"
-                                                fill="currentColor"
-                                            ></path>
+                                    <a class="btn border border-default-300 text-default-900 hover:border-default-400 hover:bg-default-50 w-full oauth-btn h-11 flex items-center justify-center py-2.5" href="{{ route('socialite.redirect', 'facebook') }}" onclick="showOAuthLoading(this)">
+                                        <svg class="me-1 flex-shrink-0" height="14px" viewbox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/>
                                         </svg>
-                                        Sign in with Github
+                                        Sign in with Facebook
                                     </a>
                                 </div>
                             </div>
@@ -53,7 +50,14 @@
                                 <span class="relative z-10 bg-white px-4">Continue with Email</span>
                             </p>
                             <div class="rounded-md">
-                                <form action="index.html">
+                                @include('shared.partials.flash-messages')
+                                @if ($errors->any())
+                                    <div class="mb-5 rounded-lg bg-danger/10 border border-danger/20 p-4">
+                                        <p class="text-sm text-danger font-medium">{{ $errors->first() }}</p>
+                                    </div>
+                                @endif
+                                <form action="{{ route('login') }}" method="POST">
+                                    @csrf
                                     <div class="mb-5">
                                         <label class="form-label" for="userEmail">
                                             Email address
@@ -61,8 +65,11 @@
                                         </label>
                                         <div class="input-icon-group">
                                             <i class="iconify tabler--mail input-icon"></i>
-                                            <input class="form-input" id="userEmail" placeholder="you@example.com" required="" type="email" />
+                                            <input class="form-input @error('email') border-danger @enderror" id="userEmail" name="email" placeholder="you@example.com" required="" type="email" value="{{ old('email') }}" />
                                         </div>
+                                        @error('email')
+                                            <p class="mt-1 text-sm text-danger">{{ $message }}</p>
+                                        @enderror
                                     </div>
                                     <div class="mb-5">
                                         <label class="form-label" for="userPassword">
@@ -71,15 +78,18 @@
                                         </label>
                                         <div class="input-icon-group">
                                             <i class="iconify tabler--lock-password input-icon"></i>
-                                            <input class="form-input" id="userPassword" placeholder="••••••••" required="" type="password" />
+                                            <input class="form-input @error('password') border-danger @enderror" id="userPassword" name="password" placeholder="••••••••" required="" type="password" />
                                         </div>
+                                        @error('password')
+                                            <p class="mt-1 text-sm text-danger">{{ $message }}</p>
+                                        @enderror
                                     </div>
                                     <div class="mb-5 flex items-center justify-between">
                                         <div class="flex items-start gap-2 lg:items-center">
-                                            <input class="form-checkbox form-checkbox-light mt-1 size-4.25 lg:mt-0" id="rememberMe" type="checkbox" />
+                                            <input class="form-checkbox form-checkbox-light mt-1 size-4.25 lg:mt-0" id="rememberMe" name="remember" type="checkbox" />
                                             <label class="form-check-label" for="rememberMe">Keep me signed in</label>
                                         </div>
-                                        <a class="text-default-400 underline underline-offset-4" href="{{ url('/auth-card/reset-pass') }}">Forgot Password?</a>
+                                        <a class="text-default-400 underline underline-offset-4" href="{{ route('password.request') }}">Forgot Password?</a>
                                     </div>
                                     <div>
                                         <button class="btn bg-primary w-full py-3 font-semibold text-white hover:bg-primary-hover" type="submit">Sign In</button>
@@ -110,4 +120,6 @@
     </div>
 </div>
 <!-- End Page content -->
-@include('shared.partials.customizer') @endsection @section('scripts') @endsection
+@include('shared.partials.customizer') @endsection @section('scripts')
+@include('shared.partials.oauth-loading-script')
+@endsection
