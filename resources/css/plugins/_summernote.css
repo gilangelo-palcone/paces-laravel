@@ -1,0 +1,71 @@
+/* _summernote.css */
+
+.note-toolbar {
+    gap: 5px !important;
+}
+
+.note-editor {
+    margin-bottom: 0;
+
+    &.note-airframe,
+    &.note-frame {
+        color: var(--color-body-color);
+        border-color: var(--color-default-300) !important;
+    }
+
+    &.note-airframe .note-statusbar,
+    &.note-frame .note-statusbar {
+        background: var(--color-default-100);
+        border-top-color: var(--color-default-300);
+    }
+}
+
+.note-btn-group {
+    .note-btn {
+        @apply bg-default-200 text-default-800 relative z-10 inline-flex cursor-pointer items-center justify-center gap-x-2 rounded border border-transparent px-3.5 py-1.5 text-center text-xs font-medium transition-all;
+        border: 0;
+        padding: 0.28rem 0.5rem;
+    }
+}
+
+.note-toolbar {
+    @apply bg-card !border-default-300;
+}
+
+.note-editor .note-toolbar .note-color .note-dropdown-menu .note-palette .note-holder-custom .note-color-btn,
+.note-popover .popover-content .note-color .note-dropdown-menu .note-palette .note-holder-custom .note-color-btn {
+    border-color: var(--color-default-300);
+}
+
+.note-editor .note-toolbar .note-color .note-dropdown-menu .note-palette .note-palette-title,
+.note-popover .popover-content .note-color .note-dropdown-menu .note-palette .note-palette-title {
+    border-bottom: 0;
+}
+
+.note-editor .note-toolbar .note-para .note-dropdown-menu,
+.note-popover .popover-content .note-para .note-dropdown-menu {
+    min-width: 235px;
+}
+
+.note-modal {
+    .modal-dialog {
+        box-shadow: none;
+    }
+
+    .modal-body {
+        overflow-x: hidden !important;
+    }
+}
+
+.help-list-item {
+    margin: 12px 0;
+}
+
+.note-form-group {
+    margin-bottom: 10px;
+
+    .note-form-label {
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,11 @@
+/* _badge.css */
+
+@layer components {
+    .badge {
+        @apply inline-flex items-center justify-center align-middle gap-1 rounded px-[0.4em] py-[0.25em] text-[0.75em] leading-none font-bold;
+    }
+
+    .badge-label {
+        @apply rounded-none px-[0.8em] py-[0.375em];
+    }
+}

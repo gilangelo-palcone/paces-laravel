@@ -1,0 +1,43 @@
+@extends('shared.base', ['title' => '401 Error']) @section('styles') @endsection @section('content')
+<!-- Start Page Content here -->
+<div class="flex min-h-screen items-center">
+    <div class="container">
+        <div class="flex justify-center lg:p-0 p-12.5">
+            <div class="2xl:w-5/12 md:w-1/2 sm:w-2/3 w-full">
+                <div class="absolute end-0 top-0">
+                    <img alt="auth-card-bg" src="/images/auth-card-bg.svg" />
+                </div>
+                <div class="absolute start-0 bottom-0 rotate-180">
+                    <img alt="auth-card-bg" src="/images/auth-card-bg.svg" />
+                </div>
+                <div class="card rounded-2xl">
+                    <div class="card-body p-7.5">
+                        <div class="mb-4 flex flex-col items-center justify-center text-center">
+                            <a class="auth-logo" href="{{ url('/') }}">
+                                <img alt="logo" class="flex dark:hidden" src="/images/logo-black.png" />
+                                <img alt="dark logo" class="hidden dark:flex" src="/images/logo.png" />
+                            </a>
+                        </div>
+                        <div class="p-3 text-center">
+                            <div class="from-primary my-4 bg-linear-to-r to-danger bg-clip-text text-7xl font-bold text-transparent">401</div>
+                            <h3 class="mb-2 text-xl font-bold uppercase">Access Restricted</h3>
+                            <p class="text-default-400 mb-4">You are not authorized to access this page.</p>
+                            <button class="btn bg-primary text-white mt-6 rounded-full hover:bg-primary-hover" onclick="window.location.href = 'index.html'">Return Home</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Auth Footer -->
+                <p class="text-default-400 mt-7.5 text-center">
+                    ©
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>
+                    Paces - by
+                    <span>Coderthemes</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Page content -->
+@include('shared.partials.customizer') @endsection @section('scripts') @endsection

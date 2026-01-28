@@ -1,0 +1,1858 @@
+{
+    "settings": {
+        "tabler": "settings",
+        "lucide": "settings",
+        "remix": "settings-2-line",
+        "boxicons": "bx:cog",
+        "solar-broken": "settings-broken",
+        "solar-duotone": "settings-bold-duotone"
+    },
+    "menu-icon": {
+        "tabler": "menu-4",
+        "lucide": "menu",
+        "remix": "menu-line",
+        "boxicons": "bx:menu",
+        "solar-broken": "hamburger-menu-broken",
+        "solar-duotone": "hamburger-menu-line-duotone"
+    },
+    "search": {
+        "tabler": "search",
+        "lucide": "search",
+        "remix": "search-line",
+        "boxicons": "bx:search",
+        "solar-broken": "magnifer-broken",
+        "solar-duotone": "magnifer-outline"
+    },
+    "chevron-down": {
+        "tabler": "chevron-down",
+        "lucide": "chevron-down",
+        "remix": "arrow-down-s-line",
+        "boxicons": "bx:chevron-down",
+        "solar-broken": "alt-arrow-down-linear",
+        "solar-duotone": "alt-arrow-down-line-duotone"
+    },
+    "email": {
+        "tabler": "mail",
+        "lucide": "mail",
+        "remix": "mail-line",
+        "boxicons": "bx:envelope",
+        "solar-broken": "letter-linear",
+        "solar-duotone": "letter-bold-duotone"
+    },
+    "bell": {
+        "tabler": "bell",
+        "lucide": "bell",
+        "remix": "notification-3-line",
+        "boxicons": "bx:bell",
+        "solar-broken": "bell-linear",
+        "solar-duotone": "bell-bold-duotone"
+    },
+    "moon": {
+        "tabler": "moon",
+        "lucide": "moon",
+        "remix": "moon-line",
+        "boxicons": "bx:moon",
+        "solar-broken": "moon-broken",
+        "solar-duotone": "moon-bold-duotone"
+    },
+    "sun": {
+        "tabler": "sun",
+        "lucide": "sun",
+        "remix": "sun-line",
+        "boxicons": "bx:sun",
+        "solar-broken": "sun-2-broken",
+        "solar-duotone": "sun-2-bold-duotone"
+    },
+    "square-rounded-x": {
+        "tabler": "square-rounded-x",
+        "lucide": "x-square",
+        "remix": "close-circle-line",
+        "boxicons": "bx:x-circle",
+        "solar-broken": "close-square-broken",
+        "solar-duotone": "close-square-bold-duotone"
+    },
+    "shield-user": {
+        "tabler": "user-hexagon",
+        "lucide": "shield-user",
+        "remix": "shield-user-line",
+        "boxicons": "bx:shield-alt-2",
+        "solar-broken": "shield-user-linear",
+        "solar-duotone": "shield-user-bold-duotone"
+    },
+    "server-crash": {
+        "tabler": "server-bolt",
+        "lucide": "server-crash",
+        "remix": "server-line",
+        "boxicons": "bx:server",
+        "solar-broken": "server-2-broken",
+        "solar-duotone": "server-2-bold-duotone"
+    },
+    "alert-triangle": {
+        "tabler": "alert-triangle",
+        "lucide": "alert-triangle",
+        "remix": "error-warning-line",
+        "boxicons": "bx:error",
+        "solar-broken": "shield-warning-broken",
+        "solar-duotone": "shield-warning-bold-duotone"
+    },
+    "check-circle": {
+        "tabler": "circle-check",
+        "lucide": "check-circle",
+        "remix": "shield-check-line",
+        "boxicons": "bx:check-circle",
+        "solar-broken": "check-circle-broken",
+        "solar-duotone": "check-circle-bold-duotone"
+    },
+    "check": {
+        "tabler": "check",
+        "lucide": "check",
+        "remix": "check-line",
+        "boxicons": "bx:check",
+        "solar-broken": "check-circle-broken",
+        "solar-duotone": "check-circle-bold-duotone"
+    },
+    "user-plus": {
+        "tabler": "user-plus",
+        "lucide": "user-plus",
+        "remix": "user-add-line",
+        "boxicons": "bx:user-plus",
+        "solar-broken": "user-plus-broken",
+        "solar-duotone": "user-plus-bold-duotone"
+    },
+    "user-check": {
+        "tabler": "user-check",
+        "lucide": "user-check",
+        "remix": "user-follow-line",
+        "boxicons": "bx:user-check",
+        "solar-broken": "user-check-broken",
+        "solar-duotone": "user-check-bold-duotone"
+    },
+    "bug": {
+        "tabler": "bug",
+        "lucide": "bug",
+        "remix": "bug-line",
+        "boxicons": "bx:bug",
+        "solar-broken": "bug-minimalistic-broken",
+        "solar-duotone": "bug-minimalistic-bold-duotone"
+    },
+    "message-rounded": {
+        "tabler": "message-circle",
+        "lucide": "message-circle",
+        "remix": "chat-3-line",
+        "boxicons": "bx:message-rounded-dots",
+        "solar-broken": "chat-round-broken",
+        "solar-duotone": "chat-round-bold-duotone"
+    },
+    "battery-warning": {
+        "tabler": "battery-charging",
+        "lucide": "battery-warning",
+        "remix": "battery-charge-line",
+        "boxicons": "bx:battery",
+        "solar-broken": "battery-charge-broken",
+        "solar-duotone": "battery-charge-bold-duotone"
+    },
+    "cloud-upload": {
+        "tabler": "cloud-upload",
+        "lucide": "cloud-upload",
+        "remix": "upload-cloud-2-line",
+        "boxicons": "bx:cloud-upload",
+        "solar-broken": "cloud-upload-broken",
+        "solar-duotone": "cloud-upload-bold-duotone"
+    },
+    "calendar": {
+        "tabler": "calendar",
+        "lucide": "calendar",
+        "remix": "calendar-line",
+        "boxicons": "bx:calendar",
+        "solar-broken": "calendar-broken",
+        "solar-duotone": "calendar-bold-duotone"
+    },
+    "download": {
+        "tabler": "download",
+        "lucide": "download",
+        "remix": "download-line",
+        "boxicons": "bx:download",
+        "solar-broken": "download-broken",
+        "solar-duotone": "download-bold-duotone"
+    },
+    "lock": {
+        "tabler": "lock",
+        "lucide": "lock-keyhole",
+        "remix": "lock-line",
+        "boxicons": "bx:lock",
+        "solar-broken": "lock-keyhole-broken",
+        "solar-duotone": "lock-keyhole-bold-duotone"
+    },
+    "bell-ring": {
+        "tabler": "bell-ringing",
+        "lucide": "bell-ring",
+        "remix": "notification-3-line",
+        "boxicons": "bx:bell-plus",
+        "solar-broken": "bell-off-broken",
+        "solar-duotone": "bell-off-bold-duotone"
+    },
+    "sun-moon": {
+        "tabler": "sun-moon",
+        "lucide": "sun-moon",
+        "remix": "mac-line",
+        "boxicons": "bx:desktop",
+        "solar-broken": "monitor-broken",
+        "solar-duotone": "monitor-bold-duotone"
+    },
+    "monocrome": {
+        "tabler": "palette",
+        "lucide": "palette",
+        "remix": "palette-line",
+        "boxicons": "bx:palette",
+        "solar-broken": "pallete-2-broken",
+        "solar-duotone": "pallete-2-bold-duotone"
+    },
+    "maximize": {
+        "tabler": "maximize",
+        "lucide": "maximize",
+        "remix": "fullscreen-line",
+        "boxicons": "bx:fullscreen",
+        "solar-broken": "maximize-square-2-broken",
+        "solar-duotone": "maximize-square-2-bold-duotone"
+    },
+    "minimize": {
+        "tabler": "minimize",
+        "lucide": "minimize",
+        "remix": "fullscreen-exit-line",
+        "boxicons": "bx:exit-fullscreen",
+        "solar-broken": "minimize-square-2-broken",
+        "solar-duotone": "minimize-square-2-bold-duotone"
+    },
+    "user-circle": {
+        "tabler": "user-circle",
+        "lucide": "circle-user-round",
+        "remix": "user-line",
+        "boxicons": "bx:user-circle",
+        "solar-broken": "user-circle-broken",
+        "solar-duotone": "user-circle-bold-duotone"
+    },
+    "credit-card": {
+        "tabler": "credit-card",
+        "lucide": "credit-card",
+        "remix": "bank-card-line",
+        "boxicons": "bx:credit-card",
+        "solar-broken": "card-broken",
+        "solar-duotone": "card-bold-duotone"
+    },
+    "settings-2": {
+        "tabler": "settings-2",
+        "lucide": "bolt",
+        "remix": "settings-line",
+        "boxicons": "bx:cog",
+        "solar-broken": "settings-minimalistic-broken",
+        "solar-duotone": "settings-minimalistic-bold-duotone"
+    },
+    "headset": {
+        "tabler": "headset",
+        "lucide": "headset",
+        "remix": "customer-service-line",
+        "boxicons": "bx:support",
+        "solar-broken": "help-broken",
+        "solar-duotone": "help-bold-duotone"
+    },
+    "logout": {
+        "tabler": "logout",
+        "lucide": "log-out",
+        "remix": "logout-box-line",
+        "boxicons": "bx:log-out",
+        "solar-broken": "logout-2-broken",
+        "solar-duotone": "logout-2-bold-duotone"
+    },
+    "chevron-up": {
+        "tabler": "chevron-up",
+        "lucide": "chevron-up",
+        "remix": "arrow-up-s-line",
+        "boxicons": "bx:chevron-up",
+        "solar-broken": "alt-arrow-up-line-duotone",
+        "solar-duotone": "alt-arrow-up-line-duotone"
+    },
+    "chevron-left": {
+        "tabler": "chevron-left",
+        "lucide": "chevron-left",
+        "remix": "arrow-left-s-line",
+        "boxicons": "bx:chevron-left",
+        "solar-broken": "alt-arrow-left-line-duotone",
+        "solar-duotone": "alt-arrow-left-line-duotone"
+    },
+    "chevron-right": {
+        "tabler": "chevron-right",
+        "lucide": "chevron-right",
+        "remix": "arrow-right-s-line",
+        "boxicons": "bx:chevron-right",
+        "solar-broken": "alt-arrow-right-line-duotone",
+        "solar-duotone": "alt-arrow-right-line-duotone"
+    },
+    "code": {
+        "tabler": "code",
+        "lucide": "code",
+        "remix": "code-line",
+        "boxicons": "bx:code",
+        "solar-broken": "code-linear",
+        "solar-duotone": "code-linear"
+    },
+    "plus": {
+        "tabler": "plus",
+        "lucide": "plus",
+        "remix": "add-line",
+        "boxicons": "bx:plus",
+        "solar-broken": "add-circle-broken",
+        "solar-duotone": "add-circle-line-duotone"
+    },
+    "minus": {
+        "tabler": "minus",
+        "lucide": "minus",
+        "remix": "subtract-line",
+        "boxicons": "bx:minus",
+        "solar-broken": "minus-circle-broken",
+        "solar-duotone": "minus-circle-line-duotone"
+    },
+    "alarm-average": {
+        "tabler": "alarm-snooze",
+        "lucide": "alarm-clock",
+        "remix": "alarm-snooze-line",
+        "boxicons": "bx:alarm-snooze",
+        "solar-broken": "alarm-broken",
+        "solar-duotone": "alarm-bold-duotone"
+    },
+    "phone-ringing": {
+        "tabler": "phone-ringing",
+        "lucide": "phone-call",
+        "remix": "megaphone-line",
+        "boxicons": "bx:phone-call",
+        "solar-broken": "phone-calling-broken",
+        "solar-duotone": "phone-calling-bold-duotone"
+    },
+    "close": {
+        "tabler": "x",
+        "lucide": "x",
+        "remix": "close-large-line",
+        "boxicons": "bx:x",
+        "solar-broken": "close-circle-broken",
+        "solar-duotone": "close-circle-bold-duotone"
+    },
+    "alert-octagon": {
+        "tabler": "alert-octagon",
+        "lucide": "octagon-alert",
+        "remix": "spam-2-line",
+        "boxicons": "bx:info-circle",
+        "solar-broken": "info-square-broken",
+        "solar-duotone": "info-square-bold-duotone"
+    },
+    "smart-home": {
+        "tabler": "smart-home",
+        "lucide": "house-wifi",
+        "remix": "home-heart-line",
+        "boxicons": "bx:home-circle",
+        "solar-broken": "smart-home-angle-broken",
+        "solar-duotone": "smart-home-angle-bold-duotone"
+    },
+    "star": {
+        "tabler": "star",
+        "lucide": "star",
+        "remix": "star-line",
+        "boxicons": "bx:star",
+        "solar-broken": "star-broken",
+        "solar-duotone": "star-line-duotone"
+    },
+    "leaf": {
+        "tabler": "leaf",
+        "lucide": "leaf",
+        "remix": "leaf-line",
+        "boxicons": "bx:leaf",
+        "solar-broken": "leaf-broken",
+        "solar-duotone": "leaf-bold-duotone"
+    },
+    "rocket": {
+        "tabler": "rocket",
+        "lucide": "rocket",
+        "remix": "rocket-line",
+        "boxicons": "bx:rocket",
+        "solar-broken": "rocket-broken",
+        "solar-duotone": "rocket-bold-duotone"
+    },
+    "plane": {
+        "tabler": "plane",
+        "lucide": "plane",
+        "remix": "plane-line",
+        "boxicons": "bx:planet",
+        "solar-broken": "planet-2-broken",
+        "solar-duotone": "planet-2-bold-duotone"
+    },
+    "microphone": {
+        "tabler": "microphone",
+        "lucide": "mic",
+        "remix": "mic-line",
+        "boxicons": "bx:microphone",
+        "solar-broken": "microphone-2-broken",
+        "solar-duotone": "microphone-2-bold-duotone"
+    },
+    "hand-stop": {
+        "tabler": "hand-stop",
+        "lucide": "hand",
+        "remix": "hand",
+        "boxicons": "bx:stop-circle",
+        "solar-broken": "hand-shake-broken",
+        "solar-duotone": "hand-shake-bold-duotone"
+    },
+    "zap": {
+        "tabler": "bolt",
+        "lucide": "zap",
+        "remix": "aed-line",
+        "boxicons": "bxs:zap",
+        "solar-broken": "bolt-broken",
+        "solar-duotone": "bolt-bold-duotone"
+    },
+    "tools": {
+        "tabler": "tools",
+        "lucide": "pencil-ruler",
+        "remix": "tools-line",
+        "boxicons": "bx:tone",
+        "solar-broken": "confetti-broken",
+        "solar-duotone": "confetti-bold-duotone"
+    },
+    "share": {
+        "tabler": "share",
+        "lucide": "share-2",
+        "remix": "share-line",
+        "boxicons": "bx:share-alt",
+        "solar-broken": "share-broken",
+        "solar-duotone": "share-line-duotone"
+    },
+    "refresh": {
+        "tabler": "refresh",
+        "lucide": "refresh-ccw",
+        "remix": "refresh-line",
+        "boxicons": "bx:refresh",
+        "solar-broken": "refresh-bold",
+        "solar-duotone": "refresh-bold"
+    },
+    "arrow-left": {
+        "tabler": "arrow-left",
+        "lucide": "arrow-left",
+        "remix": "arrow-left-line",
+        "boxicons": "bx:left-arrow-alt",
+        "solar-broken": "arrow-left-broken",
+        "solar-duotone": "arrow-left-bold-duotone"
+    },
+    "arrow-right": {
+        "tabler": "arrow-right",
+        "lucide": "arrow-right",
+        "remix": "arrow-right-line",
+        "boxicons": "bx:right-arrow-alt",
+        "solar-broken": "arrow-right-broken",
+        "solar-duotone": "arrow-right-bold-duotone"
+    },
+    "arrow-up": {
+        "tabler": "arrow-up",
+        "lucide": "arrow-up",
+        "remix": "arrow-up-line",
+        "boxicons": "bx:up-arrow-alt",
+        "solar-broken": "arrow-up-broken",
+        "solar-duotone": "arrow-up-bold-duotone"
+    },
+    "arrow-down": {
+        "tabler": "arrow-down",
+        "lucide": "arrow-down",
+        "remix": "arrow-down-line",
+        "boxicons": "bx:down-arrow-alt",
+        "solar-broken": "arrow-down-broken",
+        "solar-duotone": "arrow-down-bold-duotone"
+    },
+    "sparkles": {
+        "tabler": "sparkles",
+        "lucide": "sparkles",
+        "remix": "bard-line",
+        "boxicons": "bxs:magic-wand",
+        "solar-broken": "magic-stick-3-broken",
+        "solar-duotone": "magic-stick-3-bold-duotone"
+    },
+    "basket": {
+        "tabler": "basket",
+        "lucide": "shopping-basket",
+        "remix": "shopping-basket-line",
+        "boxicons": "bx:basket",
+        "solar-broken": "cart-5-broken",
+        "solar-duotone": "cart-5-bold-duotone"
+    },
+    "building-store": {
+        "tabler": "building-store",
+        "lucide": "store",
+        "remix": "store-2-line",
+        "boxicons": "bx:store",
+        "solar-broken": "shop-2-broken",
+        "solar-duotone": "shop-2-bold-duotone"
+    },
+    "shoping-bag": {
+        "tabler": "shopping-bag",
+        "lucide": "shopping-bag",
+        "remix": "shopping-bag-3-line",
+        "boxicons": "bx:shopping-bag",
+        "solar-broken": "bag-3-broken",
+        "solar-duotone": "bag-bold-duotone"
+    },
+    "category": {
+        "tabler": "category",
+        "lucide": "layout-grid",
+        "remix": "layout-masonry-line",
+        "boxicons": "bx:category",
+        "solar-broken": "widget-2-broken",
+        "solar-duotone": "widget-2-bold-duotone"
+    },
+    "shirt": {
+        "tabler": "shirt-sport",
+        "lucide": "shirt",
+        "remix": "t-shirt-2-line",
+        "boxicons": "bxs:t-shirt",
+        "solar-broken": "t-shirt-broken",
+        "solar-duotone": "t-shirt-bold-duotone"
+    },
+    "users": {
+        "tabler": "users",
+        "lucide": "users",
+        "remix": "group-line",
+        "boxicons": "bx:group",
+        "solar-broken": "users-group-two-rounded-linear",
+        "solar-duotone": "users-group-two-rounded-bold-duotone"
+    },
+    "shopping-cart": {
+        "tabler": "shopping-cart",
+        "lucide": "shopping-cart",
+        "remix": "shopping-cart-line",
+        "boxicons": "bx:cart-alt",
+        "solar-broken": "cart-large-2-broken",
+        "solar-duotone": "cart-large-2-bold-duotone"
+    },
+    "checkout": {
+        "tabler": "shopping-bag-heart",
+        "lucide": "shopping-basket",
+        "remix": "shopping-bag-4-line",
+        "boxicons": "bx:shopping-bag",
+        "solar-broken": "cart-5-broken",
+        "solar-duotone": "cart-5-bold-duotone"
+    },
+    "sellers": {
+        "tabler": "users-group",
+        "lucide": "user-star",
+        "remix": "group-3-line",
+        "boxicons": "bx:user-plus",
+        "solar-broken": "user-plus-rounded-broken",
+        "solar-duotone": "user-plus-rounded-bold-duotone"
+    },
+    "refunds": {
+        "tabler": "credit-card-refund",
+        "lucide": "banknote-arrow-down",
+        "remix": "refund-line",
+        "boxicons": "bx:credit-card-front",
+        "solar-broken": "revote-broken",
+        "solar-duotone": "revote-bold-duotone"
+    },
+    "reviews": {
+        "tabler": "message-star",
+        "lucide": "message-square-quote",
+        "remix": "chat-quote-line",
+        "boxicons": "bx:message-rounded-dots",
+        "solar-broken": "shield-star-broken",
+        "solar-duotone": "shield-star-bold-duotone"
+    },
+    "inventory": {
+        "tabler": "building-warehouse",
+        "lucide": "warehouse",
+        "remix": "home-9-line",
+        "boxicons": "bx:data",
+        "solar-broken": "database-broken",
+        "solar-duotone": "database-bold-duotone"
+    },
+    "report": {
+        "tabler": "report",
+        "lucide": "clipboard-plus",
+        "remix": "file-chart-line",
+        "boxicons": "bxs:report",
+        "solar-broken": "clipboard-text-broken",
+        "solar-duotone": "clipboard-text-bold-duotone"
+    },
+    "wand": {
+        "tabler": "wand",
+        "lucide": "wand-sparkles",
+        "remix": "magic-line",
+        "boxicons": "bxs:magic-wand",
+        "solar-broken": "confetti-minimalistic-broken",
+        "solar-duotone": "confetti-minimalistic-bold-duotone"
+    },
+    "pos": {
+        "tabler": "device-analytics",
+        "lucide": "airplay",
+        "remix": "airplay-line",
+        "boxicons": "bx:desktop",
+        "solar-broken": "display-broken",
+        "solar-duotone": "display-bold-duotone"
+    },
+    "tools-kitchen": {
+        "tabler": "tools-kitchen",
+        "lucide": "tool-case",
+        "remix": "restaurant-line",
+        "boxicons": "bx:bowl-hot",
+        "solar-broken": "bill-list-broken",
+        "solar-duotone": "bill-list-bold-duotone"
+    },
+    "bike": {
+        "tabler": "bike",
+        "lucide": "bike",
+        "remix": "riding-line",
+        "boxicons": "bx:cycling",
+        "solar-broken": "bicycling-broken",
+        "solar-duotone": "bicycling-bold-duotone"
+    },
+    "discount": {
+        "tabler": "discount",
+        "lucide": "badge-percent",
+        "remix": "discount-percent-line",
+        "boxicons": "bxs:discount",
+        "solar-broken": "star-fall-broken",
+        "solar-duotone": "star-fall-bold-duotone"
+    },
+    "hospital": {
+        "tabler": "building-hospital",
+        "lucide": "hospital",
+        "remix": "hospital-line",
+        "boxicons": "bx:clinic",
+        "solar-broken": "hospital-broken",
+        "solar-duotone": "hospital-bold-duotone"
+    },
+    "calendar-clock": {
+        "tabler": "calendar-clock",
+        "lucide": "calendar-clock",
+        "remix": "calendar-schedule-line",
+        "boxicons": "bx:calendar-star",
+        "solar-broken": "calendar-add-broken",
+        "solar-duotone": "calendar-add-bold-duotone"
+    },
+    "room": {
+        "tabler": "door",
+        "lucide": "door-closed",
+        "remix": "door-closed-line",
+        "boxicons": "bx:door-open",
+        "solar-broken": "buildings-broken",
+        "solar-duotone": "buildings-bold-duotone"
+    },
+    "clinics": {
+        "tabler": "hospital-circle",
+        "lucide": "clipboard-plus",
+        "remix": "add-box-line",
+        "boxicons": "bx:plus-medical",
+        "solar-broken": "shield-plus-broken",
+        "solar-duotone": "shield-plus-bold-duotone"
+    },
+    "briefcase": {
+        "tabler": "briefcase",
+        "lucide": "briefcase",
+        "remix": "briefcase-line",
+        "boxicons": "bx:briefcase",
+        "solar-broken": "bag-smile-broken",
+        "solar-duotone": "bag-smile-bold-duotone"
+    },
+    "accessible": {
+        "tabler": "accessible",
+        "lucide": "shield-user",
+        "remix": "user-community-line",
+        "boxicons": "bx:user-voice",
+        "solar-broken": "shield-user-broken",
+        "solar-duotone": "shield-user-bold-duotone"
+    },
+    "calendar-event": {
+        "tabler": "calendar-event",
+        "lucide": "calendar-check",
+        "remix": "calendar-check-line",
+        "boxicons": "bx:calendar-check",
+        "solar-broken": "calendar-broken",
+        "solar-duotone": "calendar-bold-duotone"
+    },
+    "holiday": {
+        "tabler": "beach",
+        "lucide": "ship",
+        "remix": "ship-line",
+        "boxicons": "bxs:tree",
+        "solar-broken": "mask-happly-broken",
+        "solar-duotone": "mask-happly-bold-duotone"
+    },
+    "money-cash": {
+        "tabler": "cash",
+        "lucide": "hand-coins",
+        "remix": "cash-line",
+        "boxicons": "bx:money",
+        "solar-broken": "hand-money-broken",
+        "solar-duotone": "hand-money-bold-duotone"
+    },
+    "receipt": {
+        "tabler": "invoice",
+        "lucide": "receipt-text",
+        "remix": "receipt-line",
+        "boxicons": "bx:receipt",
+        "solar-broken": "file-text-broken",
+        "solar-duotone": "file-text-bold-duotone"
+    },
+    "wallet": {
+        "tabler": "wallet",
+        "lucide": "wallet",
+        "remix": "wallet-3-line",
+        "boxicons": "bx:wallet",
+        "solar-broken": "wallet-money-broken",
+        "solar-duotone": "wallet-money-bold-duotone"
+    },
+    "money-out": {
+        "tabler": "cash-banknote-move-back",
+        "lucide": "banknote-arrow-down",
+        "remix": "coins-line",
+        "boxicons": "bx:coin-stack",
+        "solar-broken": "banknote-2-broken",
+        "solar-duotone": "banknote-2-bold-duotone"
+    },
+    "pig-money": {
+        "tabler": "pig-money",
+        "lucide": "piggy-bank",
+        "remix": "currency-line",
+        "boxicons": "bx:money-withdraw",
+        "solar-broken": "wad-of-money-broken",
+        "solar-duotone": "wad-of-money-bold-duotone"
+    },
+    "transaction": {
+        "tabler": "transaction-dollar",
+        "lucide": "arrow-left-right",
+        "remix": "exchange-funds-line",
+        "boxicons": "bx:transfer-alt",
+        "solar-broken": "round-transfer-diagonal-broken",
+        "solar-duotone": "round-transfer-diagonal-bold-duotone"
+    },
+    "bank": {
+        "tabler": "building-bank",
+        "lucide": "landmark",
+        "remix": "bank-line",
+        "boxicons": "bxs:bank",
+        "solar-broken": "card-2-broken",
+        "solar-duotone": "card-2-bold-duotone"
+    },
+    "handshake": {
+        "tabler": "heart-handshake",
+        "lucide": "handshake",
+        "remix": "shake-hands-line",
+        "boxicons": "bx:user-circle",
+        "solar-broken": "hand-stars-broken",
+        "solar-duotone": "hand-stars-bold-duotone"
+    },
+    "bulb": {
+        "tabler": "bulb",
+        "lucide": "lightbulb",
+        "remix": "lightbulb-line",
+        "boxicons": "bx:bulb",
+        "solar-broken": "lightbulb-bolt-broken",
+        "solar-duotone": "lightbulb-bolt-bold-duotone"
+    },
+    "contract": {
+        "tabler": "contract",
+        "lucide": "signature",
+        "remix": "contract-line",
+        "boxicons": "bx:donate-heart",
+        "solar-broken": "file-check-broken",
+        "solar-duotone": "file-check-bold-duotone"
+    },
+    "medal": {
+        "tabler": "medal",
+        "lucide": "medal",
+        "remix": "medal-line",
+        "boxicons": "bx:medal",
+        "solar-broken": "medal-ribbon-star-broken",
+        "solar-duotone": "medal-ribbon-star-bold-duotone"
+    },
+    "kanban": {
+        "tabler": "layout-kanban",
+        "lucide": "kanban",
+        "remix": "kanban-view",
+        "boxicons": "bx:poll",
+        "solar-broken": "documents-minimalistic-broken",
+        "solar-duotone": "documents-minimalistic-bold-duotone"
+    },
+    "megaphone": {
+        "tabler": "speakerphone",
+        "lucide": "megaphone",
+        "remix": "megaphone-line",
+        "boxicons": "bxs:megaphone",
+        "solar-broken": "microphone-3-broken",
+        "solar-duotone": "microphone-3-bold-duotone"
+    },
+    "notebook-edit": {
+        "tabler": "file-pencil",
+        "lucide": "notebook-pen",
+        "remix": "file-edit-line",
+        "boxicons": "bx:message-square-edit",
+        "solar-broken": "pen-new-square-broken",
+        "solar-duotone": "pen-new-square-bold-duotone"
+    },
+    "activity": {
+        "tabler": "activity",
+        "lucide": "activity",
+        "remix": "pulse-line",
+        "boxicons": "bx:pulse",
+        "solar-broken": "pulse-2-broken",
+        "solar-duotone": "pulse-2-bold-duotone"
+    },
+    "mailbox": {
+        "tabler": "mailbox",
+        "lucide": "mail",
+        "remix": "mail-ai-line",
+        "boxicons": "bx:envelope",
+        "solar-broken": "mailbox-broken",
+        "solar-duotone": "mailbox-bold-duotone"
+    },
+    "team": {
+        "tabler": "users-group",
+        "lucide": "users-round",
+        "remix": "group-2-line",
+        "boxicons": "bx:user-circle",
+        "solar-broken": "user-plus-rounded-broken",
+        "solar-duotone": "user-plus-rounded-bold-duotone"
+    },
+    "list": {
+        "tabler": "list-check",
+        "lucide": "list-check",
+        "remix": "list-check-3",
+        "boxicons": "bx:list-check",
+        "solar-broken": "checklist-minimalistic-broken",
+        "solar-duotone": "checklist-minimalistic-bold-duotone"
+    },
+    "folder-open": {
+        "tabler": "folder-open",
+        "lucide": "folder-open-dot",
+        "remix": "folder-open-line",
+        "boxicons": "bx:folder-open",
+        "solar-broken": "folder-with-files-broken",
+        "solar-duotone": "folder-with-files-bold-duotone"
+    },
+    "chat": {
+        "tabler": "message",
+        "lucide": "message-square-text",
+        "remix": "message-2-line",
+        "boxicons": "bx:message-dots",
+        "solar-broken": "chat-round-broken",
+        "solar-duotone": "chat-round-bold-duotone"
+    },
+    "rss": {
+        "tabler": "rss",
+        "lucide": "rss",
+        "remix": "rss-line",
+        "boxicons": "bx:rss",
+        "solar-broken": "home-wifi-angle-broken",
+        "solar-duotone": "home-wifi-angle-bold-duotone"
+    },
+    "building": {
+        "tabler": "building",
+        "lucide": "building",
+        "remix": "building-line",
+        "boxicons": "bx:buildings",
+        "solar-broken": "buildings-broken",
+        "solar-duotone": "buildings-bold-duotone"
+    },
+    "layout-cards": {
+        "tabler": "layout-cards",
+        "lucide": "layout-panel-left",
+        "remix": "collage-line",
+        "boxicons": "bx:columns",
+        "solar-broken": "align-top-broken",
+        "solar-duotone": "align-top-bold-duotone"
+    },
+    "caret-up-down": {
+        "tabler": "caret-up-down",
+        "lucide": "chevrons-up-down",
+        "remix": "expand-up-down-line",
+        "boxicons": "bx:arrow-to-top",
+        "solar-broken": "map-arrow-up-broken",
+        "solar-duotone": "map-arrow-up-bold-duotone"
+    },
+    "key": {
+        "tabler": "key",
+        "lucide": "key",
+        "remix": "key-line",
+        "boxicons": "bx:key",
+        "solar-broken": "key-broken",
+        "solar-duotone": "key-bold-duotone"
+    },
+    "apps": {
+        "tabler": "apps",
+        "lucide": "layout-grid",
+        "remix": "apps-2-ai-line",
+        "boxicons": "bx:grid-alt",
+        "solar-broken": "widget-2-broken",
+        "solar-duotone": "widget-2-bold-duotone"
+    },
+    "article": {
+        "tabler": "article",
+        "lucide": "newspaper",
+        "remix": "article-line",
+        "boxicons": "bx:receipt",
+        "solar-broken": "document-text-broken",
+        "solar-duotone": "document-text-bold-duotone"
+    },
+    "ticket": {
+        "tabler": "ticket",
+        "lucide": "ticket",
+        "remix": "coupon-line",
+        "boxicons": "bxs:coupon",
+        "solar-broken": "ticket-sale-broken",
+        "solar-duotone": "ticket-sale-bold-duotone"
+    },
+    "gift": {
+        "tabler": "gift",
+        "lucide": "gift",
+        "remix": "gift-line",
+        "boxicons": "bx:gift",
+        "solar-broken": "gift-broken",
+        "solar-duotone": "gift-bold-duotone"
+    },
+    "pin": {
+        "tabler": "pin",
+        "lucide": "pin",
+        "remix": "pushpin-2-line",
+        "boxicons": "bx:pin",
+        "solar-broken": "pin-circle-broken",
+        "solar-duotone": "pin-circle-bold-duotone"
+    },
+    "messages": {
+        "tabler": "messages",
+        "lucide": "messages-square",
+        "remix": "discuss-line",
+        "boxicons": "bx:chat",
+        "solar-broken": "chat-square-arrow-broken",
+        "solar-duotone": "chat-square-arrow-bold-duotone"
+    },
+    "pages": {
+        "tabler": "files",
+        "lucide": "book-open-text",
+        "remix": "pages-line",
+        "boxicons": "bx:spreadsheet",
+        "solar-broken": "file-smile-broken",
+        "solar-duotone": "file-smile-bold-duotone"
+    },
+    "cpu": {
+        "tabler": "cpu",
+        "lucide": "cpu",
+        "remix": "cpu-line",
+        "boxicons": "bx:chip",
+        "solar-broken": "cpu-bolt-broken",
+        "solar-duotone": "cpu-bolt-bold-duotone"
+    },
+    "user-auth": {
+        "tabler": "password-user",
+        "lucide": "user-lock",
+        "remix": "shield-user-line",
+        "boxicons": "bx:user-circle",
+        "solar-broken": "shield-user-broken",
+        "solar-duotone": "shield-user-bold-duotone"
+    },
+    "layout": {
+        "tabler": "layout",
+        "lucide": "layout-panel-left",
+        "remix": "layout-line",
+        "boxicons": "bx:layout",
+        "solar-broken": "clapperboard-text-broken",
+        "solar-duotone": "clapperboard-text-bold-duotone"
+    },
+    "sidebar": {
+        "tabler": "layout-sidebar-inactive",
+        "lucide": "panel-left-dashed",
+        "remix": "side-bar-line",
+        "boxicons": "bx:sidebar",
+        "solar-broken": "siderbar-broken",
+        "solar-duotone": "siderbar-bold-duotone"
+    },
+    "topbar": {
+        "tabler": "layout-bottombar",
+        "lucide": "panel-top-dashed",
+        "remix": "layout-top-2-line",
+        "boxicons": "bx:dock-top",
+        "solar-broken": "airbuds-case-minimalistic-broken",
+        "solar-duotone": "airbuds-case-minimalistic-bold-duotone"
+    },
+    "components": {
+        "tabler": "components",
+        "lucide": "component",
+        "remix": "color-filter-ai-line",
+        "boxicons": "bxs:component",
+        "solar-broken": "code-scan-broken",
+        "solar-duotone": "code-scan-bold-duotone"
+    },
+    "stack": {
+        "tabler": "stack-2",
+        "lucide": "layers",
+        "remix": "stack-line",
+        "boxicons": "bx:layer",
+        "solar-broken": "layers-broken",
+        "solar-duotone": "layers-bold-duotone"
+    },
+    "chart-line": {
+        "tabler": "chart-histogram",
+        "lucide": "chart-line",
+        "remix": "line-chart-line",
+        "boxicons": "bx:line-chart",
+        "solar-broken": "chart-square-broken",
+        "solar-duotone": "chart-square-bold-duotone"
+    },
+    "chart-donut": {
+        "tabler": "chart-donut",
+        "lucide": "chart-pie",
+        "remix": "donut-chart-line",
+        "boxicons": "bx:doughnut-chart",
+        "solar-broken": "pie-chart-2-broken",
+        "solar-duotone": "pie-chart-2-bold-duotone"
+    },
+    "clipboard": {
+        "tabler": "clipboard-list",
+        "lucide": "clipboard-type",
+        "remix": "survey-line",
+        "boxicons": "bx:clipboard",
+        "solar-broken": "clipboard-list-broken",
+        "solar-duotone": "clipboard-list-bold-duotone"
+    },
+    "table": {
+        "tabler": "table-column",
+        "lucide": "table-2",
+        "remix": "table-line",
+        "boxicons": "bx:table",
+        "solar-broken": "book-bookmark-broken",
+        "solar-duotone": "book-bookmark-bold-duotone"
+    },
+    "icons": {
+        "tabler": "icons",
+        "lucide": "cannabis",
+        "remix": "swap-2-line",
+        "boxicons": "bx:fingerprint",
+        "solar-broken": "atom-broken",
+        "solar-duotone": "atom-bold-duotone"
+    },
+    "map": {
+        "tabler": "map",
+        "lucide": "map",
+        "remix": "map-2-line",
+        "boxicons": "bx:map-alt",
+        "solar-broken": "point-on-map-broken",
+        "solar-duotone": "point-on-map-bold-duotone"
+    },
+    "ban": {
+        "tabler": "ban",
+        "lucide": "ban",
+        "remix": "prohibited-line",
+        "boxicons": "bx:no-entry",
+        "solar-broken": "forbidden-circle-broken",
+        "solar-duotone": "forbidden-circle-bold-duotone"
+    },
+    "glasses": {
+        "tabler": "sunglasses",
+        "lucide": "hat-glasses",
+        "remix": "glasses-line",
+        "boxicons": "bx:glasses",
+        "solar-broken": "glasses-broken",
+        "solar-duotone": "glasses-bold-duotone"
+    },
+    "eye": {
+        "tabler": "eye",
+        "lucide": "eye",
+        "remix": "eye-line",
+        "boxicons": "bx:show",
+        "solar-broken": "eye-broken",
+        "solar-duotone": "eye-bold-duotone"
+    },
+    "eye-off": {
+        "tabler": "eye-off",
+        "lucide": "eye-off",
+        "remix": "eye-off-line",
+        "boxicons": "bx:hide",
+        "solar-broken": "eye-closed-broken",
+        "solar-duotone": "eye-closed-bold-duotone"
+    },
+    "map-pin": {
+        "tabler": "map-pin",
+        "lucide": "map-pin",
+        "remix": "map-pin-line",
+        "boxicons": "bx:map",
+        "solar-broken": "map-point-broken",
+        "solar-duotone": "map-point-bold-duotone"
+    },
+    "book": {
+        "tabler": "book",
+        "lucide": "book-open",
+        "remix": "book-open-line",
+        "boxicons": "bx:book-open",
+        "solar-broken": "notebook-minimalistic-broken",
+        "solar-duotone": "notebook-minimalistic-bold-duotone"
+    },
+    "camera": {
+        "tabler": "camera",
+        "lucide": "camera",
+        "remix": "camera-line",
+        "boxicons": "bx:camera",
+        "solar-broken": "camera-broken",
+        "solar-duotone": "camera-bold-duotone"
+    },
+    "dots-vertical": {
+        "tabler": "dots-vertical",
+        "lucide": "ellipsis-vertical",
+        "remix": "more-2-fill",
+        "boxicons": "bx:dots-vertical-rounded",
+        "solar-broken": "menu-dots-bold",
+        "solar-duotone": "menu-dots-bold-duotone"
+    },
+    "dots": {
+        "tabler": "dots",
+        "lucide": "ellipsis",
+        "remix": "more-fill",
+        "boxicons": "bx:dots-horizontal-rounded",
+        "solar-broken": "menu-dots-linear",
+        "solar-duotone": "menu-dots-bold-duotone"
+    },
+    "edit": {
+        "tabler": "edit",
+        "lucide": "square-pen",
+        "remix": "edit-box-line",
+        "boxicons": "bx:edit",
+        "solar-broken": "pen-new-square-broken",
+        "solar-duotone": "pen-bold-duotone"
+    },
+    "delete": {
+        "tabler": "trash",
+        "lucide": "trash-2",
+        "remix": "delete-bin-line",
+        "boxicons": "bx:trash",
+        "solar-broken": "trash-bin-minimalistic-broken",
+        "solar-duotone": "trash-bin-minimalistic-bold-duotone"
+    },
+    "star-filled": {
+        "tabler": "star-filled",
+        "lucide": "star",
+        "remix": "star-fill",
+        "boxicons": "bxs:star",
+        "solar-broken": "star-bold",
+        "solar-duotone": "star-bold-duotone"
+    },
+    "star-outline": {
+        "tabler": "star",
+        "lucide": "star",
+        "remix": "star-line",
+        "boxicons": "bx:star",
+        "solar-broken": "star-outline",
+        "solar-duotone": "star-line-duotone"
+    },
+    "tag": {
+        "tabler": "tag",
+        "lucide": "tag",
+        "remix": "price-tag-3-line",
+        "boxicons": "bx:purchase-tag",
+        "solar-broken": "tag-linear",
+        "solar-duotone": "tag-bold-duotone"
+    },
+    "box": {
+        "tabler": "box",
+        "lucide": "box",
+        "remix": "box-3-line",
+        "boxicons": "bx:package",
+        "solar-broken": "box-minimalistic-broken",
+        "solar-duotone": "box-minimalistic-bold-duotone"
+    },
+    "dollar": {
+        "tabler": "currency-dollar",
+        "lucide": "dollar-sign",
+        "remix": "money-dollar-circle-line",
+        "boxicons": "bx:dollar",
+        "solar-broken": "dollar-broken",
+        "solar-duotone": "dollar-line-duotone"
+    },
+    "info-circle": {
+        "tabler": "info-circle",
+        "lucide": "info",
+        "remix": "information-line",
+        "boxicons": "bx:info-circle",
+        "solar-broken": "info-circle-broken",
+        "solar-duotone": "info-circle-bold-duotone"
+    },
+    "dashboard": {
+        "tabler": "dashboard",
+        "lucide": "layout-dashboard",
+        "remix": "dashboard-2-line",
+        "boxicons": "bx:tachometer",
+        "solar-broken": "spedometer-low-broken",
+        "solar-duotone": "spedometer-low-bold-duotone"
+    },
+    "dropdown": {
+        "tabler": "menu-order",
+        "lucide": "separator-horizontal",
+        "remix": "contract-up-down-line",
+        "boxicons": "bx:arrow-from-top",
+        "solar-broken": "double-alt-arrow-down-bold",
+        "solar-duotone": "double-alt-arrow-down-bold-duotone"
+    },
+    "list-level": {
+        "tabler": "sitemap",
+        "lucide": "list-tree",
+        "remix": "list-radio",
+        "boxicons": "bx:sitemap",
+        "solar-broken": "list-heart-minimalistic-broken",
+        "solar-duotone": "list-heart-minimalistic-bold-duotone"
+    },
+    "ice-cream": {
+        "tabler": "ice-cream-2",
+        "lucide": "ice-cream-cone",
+        "remix": "drinks-2-line",
+        "boxicons": "bx:drink",
+        "solar-broken": "wineglass-triangle-broken",
+        "solar-duotone": "wineglass-triangle-bold-duotone"
+    },
+    "lock-password": {
+        "tabler": "lock-password",
+        "lucide": "lock-keyhole",
+        "remix": "lock-password-line",
+        "boxicons": "bx:lock",
+        "solar-broken": "lock-password-broken",
+        "solar-duotone": "lock-password-bold-duotone"
+    },
+    "user": {
+        "tabler": "user",
+        "lucide": "user",
+        "remix": "user-line",
+        "boxicons": "bx:user",
+        "solar-broken": "user-circle-broken",
+        "solar-duotone": "user-circle-bold-duotone"
+    },
+    "grip-horizontal": {
+        "tabler": "grip-horizontal",
+        "lucide": "grip-horizontal",
+        "remix": "draggable",
+        "boxicons": "bx:grid-horizontal",
+        "solar-broken": "widget-3-broken",
+        "solar-duotone": "widget-3-bold-duotone"
+    },
+    "flag": {
+        "tabler": "flag",
+        "lucide": "flag",
+        "remix": "flag-line",
+        "boxicons": "bx:flag",
+        "solar-broken": "flag-2-linear",
+        "solar-duotone": "flag-2-bold-duotone"
+    },
+    "zoom-in": {
+        "tabler": "zoom-in",
+        "lucide": "zoom-in",
+        "remix": "zoom-in-line",
+        "boxicons": "bx:zoom-in",
+        "solar-broken": "magnifer-zoom-in-broken",
+        "solar-duotone": "magnifer-zoom-in-bold-duotone"
+    },
+    "zoom-out": {
+        "tabler": "zoom-out",
+        "lucide": "zoom-out",
+        "remix": "zoom-out-line",
+        "boxicons": "bx:zoom-out",
+        "solar-broken": "magnifer-zoom-out-broken",
+        "solar-duotone": "magnifer-zoom-out-bold-duotone"
+    },
+    "fingerprint": {
+        "tabler": "fingerprint",
+        "lucide": "fingerprint",
+        "remix": "fingerprint-line",
+        "boxicons": "bx:fingerprint",
+        "solar-broken": "hand-shake-broken",
+        "solar-duotone": "hand-shake-bold-duotone"
+    },
+    "copy": {
+        "tabler": "copy",
+        "lucide": "copy",
+        "remix": "file-copy-line",
+        "boxicons": "bx:copy",
+        "solar-broken": "copy-linear",
+        "solar-duotone": "copy-bold-duotone"
+    },
+    "player": {
+        "tabler": "player-play",
+        "lucide": "play",
+        "remix": "play-line",
+        "boxicons": "bx:play",
+        "solar-broken": "play-broken",
+        "solar-duotone": "play-bold-duotone"
+    },
+    "compass": {
+        "tabler": "compass",
+        "lucide": "compass",
+        "remix": "compass-line",
+        "boxicons": "bx:compass",
+        "solar-broken": "compass-broken",
+        "solar-duotone": "compass-bold-duotone"
+    },
+    "desktop": {
+        "tabler": "device-desktop",
+        "lucide": "monitor-check",
+        "remix": "computer-line",
+        "boxicons": "bx:desktop",
+        "solar-broken": "devices-broken",
+        "solar-duotone": "devices-bold-duotone"
+    },
+    "brush": {
+        "tabler": "brush",
+        "lucide": "brush",
+        "remix": "brush-line",
+        "boxicons": "bx:brush",
+        "solar-broken": "colour-tuneing-broken",
+        "solar-duotone": "colour-tuneing-bold-duotone"
+    },
+    "file": {
+        "tabler": "file",
+        "lucide": "file",
+        "remix": "file-line",
+        "boxicons": "bx:file",
+        "solar-broken": "file-outline",
+        "solar-duotone": "file-bold-duotone"
+    },
+    "school": {
+        "tabler": "school",
+        "lucide": "graduation-cap",
+        "remix": "graduation-cap-line",
+        "boxicons": "bxs:graduation",
+        "solar-broken": "square-academic-cap-broken",
+        "solar-duotone": "square-academic-cap-2-bold-duotone"
+    },
+    "link": {
+        "tabler": "link",
+        "lucide": "link",
+        "remix": "link",
+        "boxicons": "bx:link-alt",
+        "solar-broken": "link-minimalistic-2-linear",
+        "solar-duotone": "link-minimalistic-2-line-duotone"
+    },
+    "world": {
+        "tabler": "world",
+        "lucide": "earth",
+        "remix": "global-line",
+        "boxicons": "bx:world",
+        "solar-broken": "global-broken",
+        "solar-duotone": "global-bold-duotone"
+    },
+    "external-link": {
+        "tabler": "external-link",
+        "lucide": "external-link",
+        "remix": "external-link-line",
+        "boxicons": "bx:link-external",
+        "solar-broken": "link-broken-minimalistic-linear",
+        "solar-duotone": "link-broken-minimalistic-line-duotone"
+    },
+    "circle": {
+        "tabler": "circle",
+        "lucide": "circle-small",
+        "remix": "circle-fill",
+        "boxicons": "bxs:circle",
+        "solar-broken": "bolt-circle-broken",
+        "solar-duotone": "bolt-circle-bold-duotone"
+    },
+    "circle-filled": {
+        "tabler": "circle-filled",
+        "lucide": "circle",
+        "remix": "circle-fill",
+        "boxicons": "bxs:circle",
+        "solar-broken": "bolt-circle-broken",
+        "solar-duotone": "bolt-circle-bold-duotone"
+    },
+    "phone-call": {
+        "tabler": "phone-call",
+        "lucide": "phone-call",
+        "remix": "phone-line",
+        "boxicons": "bx:phone-call",
+        "solar-broken": "phone-calling-broken",
+        "solar-duotone": "phone-calling-bold-duotone"
+    },
+    "shield-keyhole": {
+        "tabler": "shield-lock",
+        "lucide": "shield-half",
+        "remix": "shield-keyhole-line",
+        "boxicons": "bx:shield-quarter",
+        "solar-broken": "shield-keyhole-linear",
+        "solar-duotone": "shield-keyhole-bold-duotone"
+    },
+    "palette": {
+        "tabler": "palette",
+        "lucide": "palette",
+        "remix": "palette-line",
+        "boxicons": "bx:palette",
+        "solar-broken": "palette-round-broken",
+        "solar-duotone": "palette-round-bold-duotone"
+    },
+    "database": {
+        "tabler": "database",
+        "lucide": "database",
+        "remix": "database-2-line",
+        "boxicons": "bx:sushi",
+        "solar-broken": "database-linear",
+        "solar-duotone": "database-bold-duotone"
+    },
+    "bar-chart": {
+        "tabler": "chart-bar",
+        "lucide": "chart-bar-big",
+        "remix": "bar-chart-2-line",
+        "boxicons": "bx:bar-chart-alt-2",
+        "solar-broken": "chart-linear",
+        "solar-duotone": "chart-bold-duotone"
+    },
+    "archive": {
+        "tabler": "archive",
+        "lucide": "archive",
+        "remix": "archive-line",
+        "boxicons": "bx:box",
+        "solar-broken": "archive-broken",
+        "solar-duotone": "archive-bold-duotone"
+    },
+    "video": {
+        "tabler": "video",
+        "lucide": "video",
+        "remix": "video-on-line",
+        "boxicons": "bx:video",
+        "solar-broken": "videocamera-record-broken",
+        "solar-duotone": "videocamera-record-bold-duotone"
+    },
+    "grid-pattern": {
+        "tabler": "grid-pattern",
+        "lucide": "columns-3-cog",
+        "remix": "landscape-ai-line",
+        "boxicons": "bx:grid-alt",
+        "solar-broken": "code-scan-broken",
+        "solar-duotone": "code-scan-bold-duotone"
+    },
+    "folder": {
+        "tabler": "folder",
+        "lucide": "folder",
+        "remix": "folder-2-line",
+        "boxicons": "bx:folder",
+        "solar-broken": "folder-2-broken",
+        "solar-duotone": "folder-2-bold-duotone"
+    },
+    "folder-plus": {
+        "tabler": "folder-plus",
+        "lucide": "folder-plus",
+        "remix": "folder-add-line",
+        "boxicons": "bx:folder-plus",
+        "solar-broken": "add-folder-line-duotone",
+        "solar-duotone": "add-folder-bold-duotone"
+    },
+    "brain": {
+        "tabler": "brain",
+        "lucide": "brain",
+        "remix": "brain-line",
+        "boxicons": "bx:brain",
+        "solar-broken": "crown-minimalistic-line-duotone",
+        "solar-duotone": "crown-minimalistic-bold-duotone"
+    },
+    "robot": {
+        "tabler": "robot",
+        "lucide": "bot",
+        "remix": "robot-3-line",
+        "boxicons": "bx:bot",
+        "solar-broken": "accessibility-broken",
+        "solar-duotone": "accessibility-bold-duotone"
+    },
+    "text-recognition": {
+        "tabler": "text-recognition",
+        "lucide": "type-outline",
+        "remix": "ai-generate-text",
+        "boxicons": "bx:text",
+        "solar-broken": "text-square-2-broken",
+        "solar-duotone": "text-square-2-bold-duotone"
+    },
+    "paperclip": {
+        "tabler": "paperclip",
+        "lucide": "paperclip",
+        "remix": "attachment-line",
+        "boxicons": "bx:paperclip",
+        "solar-broken": "paperclip-linear",
+        "solar-duotone": "paperclip-line-duotone"
+    },
+    "photo-upload": {
+        "tabler": "photo-up",
+        "lucide": "image-up",
+        "remix": "image-add-line",
+        "boxicons": "bx:photo-album",
+        "solar-broken": "album-broken",
+        "solar-duotone": "album-bold-duotone"
+    },
+    "send": {
+        "tabler": "send-2",
+        "lucide": "send-horizontal",
+        "remix": "send-plane-2-line",
+        "boxicons": "bx:send",
+        "solar-broken": "plain-2-broken",
+        "solar-duotone": "plain-2-bold-duotone"
+    },
+    "inbox": {
+        "tabler": "inbox",
+        "lucide": "inbox",
+        "remix": "inbox-line",
+        "boxicons": "bxs:inbox",
+        "solar-broken": "inbox-broken",
+        "solar-duotone": "inbox-bold-duotone"
+    },
+    "clock": {
+        "tabler": "clock",
+        "lucide": "clock",
+        "remix": "time-line",
+        "boxicons": "bx:time",
+        "solar-broken": "clock-circle-broken",
+        "solar-duotone": "clock-circle-bold-duotone"
+    },
+    "pencil": {
+        "tabler": "pencil",
+        "lucide": "pencil",
+        "remix": "pencil-line",
+        "boxicons": "bx:pencil",
+        "solar-broken": "pen-2-broken",
+        "solar-duotone": "pen-2-bold-duotone"
+    },
+    "alert-circle": {
+        "tabler": "alert-circle",
+        "lucide": "circle-alert",
+        "remix": "error-warning-line",
+        "boxicons": "bx:info-circle",
+        "solar-broken": "info-circle-broken",
+        "solar-duotone": "info-circle-bold-duotone"
+    },
+    "mail-opened": {
+        "tabler": "mail-opened",
+        "lucide": "mail-open",
+        "remix": "mail-open-line",
+        "boxicons": "bx:envelope",
+        "solar-broken": "mailbox-broken",
+        "solar-duotone": "mailbox-bold-duotone"
+    },
+    "mail-forward": {
+        "tabler": "mail-forward",
+        "lucide": "forward",
+        "remix": "arrow-go-forward-line",
+        "boxicons": "bx:mail-send",
+        "solar-broken": "multiple-forward-right-broken",
+        "solar-duotone": "multiple-forward-right-bold-duotone"
+    },
+    "clock-pause": {
+        "tabler": "clock-pause",
+        "lucide": "clock-fading",
+        "remix": "time-line",
+        "boxicons": "bx:timer",
+        "solar-broken": "clock-square-broken",
+        "solar-duotone": "clock-square-bold-duotone"
+    },
+    "reply": {
+        "tabler": "corner-up-left",
+        "lucide": "corner-up-left",
+        "remix": "reply-line",
+        "boxicons": "bx:reply",
+        "solar-broken": "multiple-forward-left-broken",
+        "solar-duotone": "multiple-forward-left-bold-duotone"
+    },
+    "forward": {
+        "tabler": "corner-up-right-double",
+        "lucide": "forward",
+        "remix": "share-forward-line",
+        "boxicons": "bx:redo",
+        "solar-broken": "multiple-forward-right-broken",
+        "solar-duotone": "multiple-forward-right-bold-duotone"
+    },
+    "photo": {
+        "tabler": "photo",
+        "lucide": "image",
+        "remix": "image-line",
+        "boxicons": "bx:image",
+        "solar-broken": "gallery-bold",
+        "solar-duotone": "gallery-bold-duotone"
+    },
+    "bold": {
+        "tabler": "bold",
+        "lucide": "bold",
+        "remix": "bold",
+        "boxicons": "bx:bold",
+        "solar-broken": "text-bold-linear",
+        "solar-duotone": "text-bold-line-duotone"
+    },
+    "italic": {
+        "tabler": "italic",
+        "lucide": "italic",
+        "remix": "italic",
+        "boxicons": "bx:italic",
+        "solar-broken": "text-italic-linear",
+        "solar-duotone": "text-italic-line-duotone"
+    },
+    "printer": {
+        "tabler": "printer",
+        "lucide": "printer",
+        "remix": "printer-line",
+        "boxicons": "bx:printer",
+        "solar-broken": "printer-broken",
+        "solar-duotone": "printer-bold-duotone"
+    },
+    "figma": {
+        "tabler": "brand-figma",
+        "lucide": "figma",
+        "remix": "figma-line",
+        "boxicons": "bxl:figma",
+        "solar-broken": "figma-broken",
+        "solar-duotone": "figma-bold-duotone"
+    },
+    "pdf": {
+        "tabler": "file-type-pdf",
+        "lucide": "file-text",
+        "remix": "file-pdf-2-line",
+        "boxicons": "bxs:file-pdf",
+        "solar-broken": "file-text-broken",
+        "solar-duotone": "file-text-bold-duotone"
+    },
+    "package": {
+        "tabler": "package",
+        "lucide": "package",
+        "remix": "box-3-line",
+        "boxicons": "bx:package",
+        "solar-broken": "box-linear",
+        "solar-duotone": "box-bold-duotone"
+    },
+    "music": {
+        "tabler": "music",
+        "lucide": "music",
+        "remix": "music-2-line",
+        "boxicons": "bx:music",
+        "solar-broken": "music-note-linear",
+        "solar-duotone": "music-note-bold-duotone"
+    },
+    "mute": {
+        "tabler": "bell-off",
+        "lucide": "bell-off",
+        "remix": "notification-off-line",
+        "boxicons": "bx:bell-off",
+        "solar-broken": "bell-off-linear",
+        "solar-duotone": "bell-off-bold-duotone"
+    },
+    "mood-smile": {
+        "tabler": "mood-smile",
+        "lucide": "smile",
+        "remix": "user-smile-line",
+        "boxicons": "bx:smile",
+        "solar-broken": "smile-circle-broken",
+        "solar-duotone": "smile-circle-bold-duotone"
+    },
+    "heart": {
+        "tabler": "heart",
+        "lucide": "heart",
+        "remix": "heart-line",
+        "boxicons": "bx:heart",
+        "solar-broken": "heart-broken",
+        "solar-duotone": "heart-bold-duotone"
+    },
+    "heart-filled": {
+        "tabler": "heart-filled",
+        "lucide": "heart",
+        "remix": "heart-fill",
+        "boxicons": "bxs:heart",
+        "solar-broken": "heart-bold",
+        "solar-duotone": "heart-bold-duotone"
+    },
+    "quote": {
+        "tabler": "quote",
+        "lucide": "quote",
+        "remix": "double-quotes-l",
+        "boxicons": "bxs:quote-alt-left",
+        "solar-broken": "hashtag-linear",
+        "solar-duotone": "hashtag-line-duotone"
+    },
+    "help-hexagon": {
+        "tabler": "help-hexagon",
+        "lucide": "badge-question-mark",
+        "remix": "questionnaire-line",
+        "boxicons": "bx:help-circle",
+        "solar-broken": "question-square-broken",
+        "solar-duotone": "question-square-bold-duotone"
+    },
+    "cut": {
+        "tabler": "cut",
+        "lucide": "scissors",
+        "remix": "scissors-2-line",
+        "boxicons": "bx:cut",
+        "solar-broken": "scissors-broken",
+        "solar-duotone": "scissors-bold-duotone"
+    },
+    "usercard": {
+        "tabler": "id",
+        "lucide": "id-card",
+        "remix": "profile-line",
+        "boxicons": "bxs:id-card",
+        "solar-broken": "user-id-broken",
+        "solar-duotone": "user-id-bold-duotone"
+    },
+    "lifebuoy": {
+        "tabler": "lifebuoy",
+        "lucide": "life-buoy",
+        "remix": "lifebuoy-line",
+        "boxicons": "bx:buoy",
+        "solar-broken": "help-broken",
+        "solar-duotone": "help-bold-duotone"
+    },
+    "atom": {
+        "tabler": "atom",
+        "lucide": "atom",
+        "remix": "compasses-2-fill",
+        "boxicons": "bx:atom",
+        "solar-broken": "atom-broken",
+        "solar-duotone": "atom-bold-duotone"
+    },
+    "circle-plus": {
+        "tabler": "circle-dashed-plus",
+        "lucide": "circle-plus",
+        "remix": "add-circle-line",
+        "boxicons": "bx:plus-circle",
+        "solar-broken": "add-circle-linear",
+        "solar-duotone": "add-circle-line-duotone"
+    },
+    "login": {
+        "tabler": "login",
+        "lucide": "log-in",
+        "remix": "login-box-line",
+        "boxicons": "bx:log-in",
+        "solar-broken": "login-linear",
+        "solar-duotone": "login-bold-duotone"
+    },
+    "trending-up": {
+        "tabler": "trending-up",
+        "lucide": "trending-up",
+        "remix": "arrow-up-box-line",
+        "boxicons": "bx:trending-up",
+        "solar-broken": "course-up-linear",
+        "solar-duotone": "course-up-bold-duotone"
+    },
+    "plug": {
+        "tabler": "plug",
+        "lucide": "plug",
+        "remix": "plug-line",
+        "boxicons": "bx:plug",
+        "solar-broken": "plug-circle-broken",
+        "solar-duotone": "plug-circle-bold-duotone"
+    },
+    "list-filter": {
+        "tabler": "filter-2",
+        "lucide": "list-filter",
+        "remix": "filter-3-line",
+        "boxicons": "bx:filter",
+        "solar-broken": "list-linear",
+        "solar-duotone": "list-line-duotone"
+    },
+    "checks": {
+        "tabler": "checks",
+        "lucide": "check-check",
+        "remix": "check-double-line",
+        "boxicons": "bx:check-double",
+        "solar-broken": "check-read-linear",
+        "solar-duotone": "check-read-line-duotone"
+    },
+    "list-details": {
+        "tabler": "list-details",
+        "lucide": "logs",
+        "remix": "list-check-2",
+        "boxicons": "bx:list-ul",
+        "solar-broken": "checklist-linear",
+        "solar-duotone": "checklist-bold-duotone"
+    },
+    "phone": {
+        "tabler": "phone",
+        "lucide": "phone",
+        "remix": "phone-line",
+        "boxicons": "bx:phone",
+        "solar-broken": "phone-linear",
+        "solar-duotone": "phone-bold-duotone"
+    },
+    "shuffle": {
+        "tabler": "arrows-shuffle",
+        "lucide": "shuffle",
+        "remix": "shuffle-line",
+        "boxicons": "bx:shuffle",
+        "solar-broken": "shuffle-linear",
+        "solar-duotone": "shuffle-line-duotone"
+    },
+    "message": {
+        "tabler": "message",
+        "lucide": "message-square",
+        "remix": "message-line",
+        "boxicons": "bx:message-dots",
+        "solar-broken": "chat-line-linear",
+        "solar-duotone": "chat-line-line-duotone"
+    },
+    "volume": {
+        "tabler": "volume",
+        "lucide": "volume-2",
+        "remix": "volume-up-line",
+        "boxicons": "bx:volume-full",
+        "solar-broken": "volume-loud-linear",
+        "solar-duotone": "volume-loud-bold-duotone"
+    },
+    "file-text": {
+        "tabler": "file-text",
+        "lucide": "file-text",
+        "remix": "file-text-line",
+        "boxicons": "bx:file",
+        "solar-broken": "file-text-linear",
+        "solar-duotone": "file-text-linear"
+    },
+    "file-zip": {
+        "tabler": "file-zip",
+        "lucide": "file-archive",
+        "remix": "file-zip-line",
+        "boxicons": "bxs:file-archive",
+        "solar-broken": "zip-file-linear",
+        "solar-duotone": "zip-file-line-duotone"
+    },
+    "truck": {
+        "tabler": "truck",
+        "lucide": "truck",
+        "remix": "truck-line",
+        "boxicons": "bxs:truck",
+        "solar-broken": "bus-linear",
+        "solar-duotone": "bus-bold-duotone"
+    },
+    "hourglass": {
+        "tabler": "hourglass",
+        "lucide": "hourglass",
+        "remix": "hourglass-line",
+        "boxicons": "bx:hourglass",
+        "solar-broken": "hourglass-broken",
+        "solar-duotone": "hourglass-bold-duotone"
+    },
+    "save": {
+        "tabler": "device-floppy",
+        "lucide": "save",
+        "remix": "save-line",
+        "boxicons": "bx:save",
+        "solar-broken": "file-check-broken",
+        "solar-duotone": "file-check-bold-duotone"
+    },
+    "thumb-up": {
+        "tabler": "thumb-up",
+        "lucide": "thumbs-up",
+        "remix": "thumb-up-line",
+        "boxicons": "bx:like",
+        "solar-broken": "like-linear",
+        "solar-duotone": "like-outline"
+    },
+    "menu-icon-circle": {
+        "tabler": "circle",
+        "lucide": "circle-equal",
+        "remix": "circle-line",
+        "boxicons": "bx:circle",
+        "solar-broken": "menu-dots-circle-linear",
+        "solar-duotone": "menu-dots-circle-linear"
+    },
+    "thumb-down": {
+        "tabler": "thumb-down",
+        "lucide": "thumbs-down",
+        "remix": "thumb-down-line",
+        "boxicons": "bx:dislike",
+        "solar-broken": "dislike-linear",
+        "solar-duotone": "dislike-outline"
+    }
+}
