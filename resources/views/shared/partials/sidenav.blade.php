@@ -116,6 +116,11 @@
                                     <span class="menu-text" data-lang="dashboard-projects">Projects</span>
                                 </a>
                             </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="{{ url('/dashboard/rules') }}">
+                                    <span class="menu-text" data-lang="dashboard-rules">Rules</span>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li class="menu-title" data-lang="apps">

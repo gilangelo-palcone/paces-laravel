@@ -39,6 +39,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/dashboard', function () {
         return view('index');
     })->name('dashboard.home');
+
+    Route::get('/dashboard/rules', function () {
+        return view('dashboard.rules');
+    })->name('dashboard.rules');
     
     // Apps Routes
     Route::prefix('apps')->name('apps.')->group(function () {

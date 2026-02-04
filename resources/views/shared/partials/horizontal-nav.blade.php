@@ -32,6 +32,9 @@
                             <a class="dropdown-item" href="{{ url('/dashboard/projects') }}">
                                 <span data-lang="dashboard-projects">Projects</span>
                             </a>
+                            <a class="dropdown-item" href="{{ url('/dashboard/rules') }}">
+                                <span data-lang="dashboard-rules">Rules</span>
+                            </a>
                         </div>
                     </div>
                 </li>
