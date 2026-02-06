@@ -27,6 +27,7 @@ class Table {
         this.paginationInfo = null
         this.filters = []
         this.rangeFilters = []
+        this.resetButton = null
 
         this.itemNotFoundMessage = "Nothing found."
         this.deleteRowMessage = "Are you sure you want to delete this row?"
@@ -46,6 +47,8 @@ class Table {
             this.setupFilters()
             this.setupSort()
         }
+
+        this.setupReset()
 
         this.setupRowsPerPage()
         this.setupPagination()
@@ -229,6 +232,54 @@ class Table {
             rowsPerPageSelect.addEventListener("change", (e) => {
                 e.preventDefault()
                 this.rowsPerPage = parseInt(e.target.value)
+                this.update()
+            })
+        }
+    }
+
+    setupReset() {
+        this.resetButton = this.table.querySelector(this.parentInstance.resetSelector)
+        if (this.resetButton) {
+            this.resetButton.addEventListener("click", (e) => {
+                e.preventDefault()
+
+                // Reset search
+                if (this.searchInput) {
+                    this.searchInput.value = ""
+                }
+
+                // Reset filters (selects and inputs)
+                this.filters.forEach((filter) => {
+                    if (filter.tagName === "SELECT") {
+                        filter.value = "All"
+                    } else {
+                        filter.value = ""
+                    }
+                })
+
+                // Reset range filters
+                this.rangeFilters.forEach((rf) => {
+                    if (rf.tagName === "SELECT") rf.value = "All"
+                    else rf.value = ""
+                })
+
+                // Uncheck row checkboxes and hide delete selected
+                const checkboxes = this.table.querySelectorAll('input[type="checkbox"]')
+                checkboxes.forEach((c) => (c.checked = false))
+                if (this.deleteSelectedSelector) this.deleteSelectedSelector.classList.add("hidden")
+                if (this.checkAllCheckBox) this.checkAllCheckBox.checked = false
+
+                // Reset header sort directions and icons
+                const defaultIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ms-1.5"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 9l4 -4l4 4m-4 -4v14" /><path d="M21 15l-4 4l-4 -4m4 4v-14" /></svg>`
+                this.headers.forEach((header) => {
+                    if (header.dataset) header.dataset.direction = ""
+                    let icon = header.querySelector("i") || header.querySelector("span")
+                    if (icon) icon.innerHTML = defaultIcon
+                })
+
+                // Reapply filters and update table
+                this.applyFilters()
+                this.currentPage = 1
                 this.update()
             })
         }
@@ -603,6 +654,7 @@ class CustomTable {
         paginationInfoAttribute = "data-table-pagination-info",
         deleteSelectedSelector = "[data-table-delete-selected]",
         deleteRowSelector = "[data-table-delete-row]",
+        resetSelector = "[data-table-reset]",
         rowsPerPage = 10,
         currentPage = 1,
     } = {}) {
@@ -620,6 +672,7 @@ class CustomTable {
         this.paginationInfoAttribute = paginationInfoAttribute
         this.deleteSelectedSelector = deleteSelectedSelector
         this.deleteRowSelector = deleteRowSelector
+        this.resetSelector = resetSelector
         this.rowsPerPage = rowsPerPage
         this.currentPage = currentPage
 

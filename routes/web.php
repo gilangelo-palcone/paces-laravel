@@ -56,6 +56,13 @@ Route::middleware('auth')->group(function () {
             Route::get('/grid', [AppsController::class, 'projectsGrid'])->name('grid');
             Route::get('/details/{id?}', [AppsController::class, 'projectsDetails'])->name('details');
         });
+        
+        // Tasks
+        Route::prefix('task')->name('task.')->group(function () {
+            Route::get('/list', function () { return view('apps.task.list'); })->name('list');
+            Route::get('/create', function () { return view('apps.task.create'); })->name('create');
+            Route::get('/details', function () { return view('apps.task.details'); })->name('details');
+        });
     });
     
     // User Routes
